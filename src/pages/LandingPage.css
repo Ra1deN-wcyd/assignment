@@ -1,0 +1,209 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  background-color: #121212;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #f0f0f0;
+}
+
+.page-container {
+  min-height: 100vh;
+  width: 100vw;
+  padding: 2rem 3rem;
+  box-sizing: border-box;
+  background-color: #121212;
+  overflow-y: auto;
+}
+
+.breadcrumb {
+  font-size: 0.85rem;
+  margin-bottom: 1rem;
+  color: #5ea1ff;
+}
+
+.breadcrumb a {
+  color: #5ea1ff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.page-title {
+  color: #ff4757;
+  font-size: 2rem;
+  margin-bottom: 0.25rem;
+  font-weight: 900;
+}
+
+.page-subtitle {
+  color: #cccccc;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.guitar-post {
+  background: #1e1e1e;
+  padding: 1.5rem 1.75rem;
+  margin-bottom: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(255, 71, 87, 0.4);
+  transition: box-shadow 0.3s ease;
+}
+
+.guitar-post:hover {
+  box-shadow: 0 6px 15px rgba(255, 71, 87, 0.7);
+}
+
+.guitar-post h3 {
+  color: #ff4757;
+  margin-bottom: 0.75rem;
+  font-weight: 700;
+}
+
+.guitar-meta {
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  color: #7aa7ff;
+}
+
+.guitar-meta a {
+  color: #5ea1ff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.guitar-meta a:hover {
+  text-decoration: underline;
+}
+
+.reactions {
+  display: flex;
+  gap: 10px;
+  margin-top: 1rem;
+}
+
+.reactions button {
+  padding: 6px 14px;
+  background-color: #3a3a3a;
+  border: none;
+  border-radius: 6px;
+  color: #ddd;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.reactions button.selected,
+.reactions button:hover {
+  background-color: #ff4757;
+  color: white;
+}
+
+.comments-section {
+  background: #1e1e1e;
+  padding: 1.5rem 2rem;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(255, 71, 87, 0.4);
+}
+
+.comments-section h4 {
+  color: #ff4757;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.comments-section input[type='text'] {
+  width: calc(100% - 48px);
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: none;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.comments-section .send {
+  background-color: #ff4757;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-weight: 700;
+  margin-left: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.comments-section .send:hover {
+  background-color: #ff2e42;
+}
+
+.comment {
+  margin-bottom: 1.25rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #333;
+}
+
+.comment-meta {
+  font-size: 0.9rem;
+  color: #7aa7ff;
+  margin-bottom: 0.25rem;
+}
+
+.comment-meta strong {
+  color: #f0f0f0;
+}
+
+.report {
+  cursor: pointer;
+  font-size: 0.8rem;
+  color: #ff4757;
+  font-weight: 600;
+}
+
+.comment-reactions {
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 10px;
+}
+
+.comment-reactions button {
+  padding: 5px 12px;
+  background-color: #3a3a3a;
+  border: none;
+  border-radius: 6px;
+  color: #ddd;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.85rem;
+  transition: background-color 0.3s ease;
+}
+
+.comment-reactions button.selected,
+.comment-reactions button:hover {
+  background-color: #ff4757;
+  color: white;
+}
+
+.pagination {
+  margin-top: 1rem;
+  display: flex;
+  gap: 8px;
+}
+
+.pagination button {
+  padding: 6px 14px;
+  background-color: #3a3a3a;
+  border: none;
+  border-radius: 6px;
+  color: #ddd;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.pagination button.active,
+.pagination button:hover {
+  background-color: #ff4757;
+  color: white;
+}
