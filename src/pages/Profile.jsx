@@ -15,7 +15,7 @@ function Profile() {
           marginBottom: 10
         }}></div>
         <h3>Author Name</h3>
-        <p>This is a minimal author profile page to demonstrate routing.</p>
+        <p>yeahooo the routing is working correctly.</p>
       </div>
     </div>
   );
